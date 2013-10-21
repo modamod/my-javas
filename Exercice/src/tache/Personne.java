@@ -58,7 +58,7 @@ public class Personne {
 
     @Override
     public String toString() {
-        return "Personne{" + "cin=" + cin + ", nom=" + nom + ", prenom=" + prenom + '}';
+        return "cin=" + cin + ", nom=" + nom + ", prenom=" + prenom;
     }
     
     

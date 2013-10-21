@@ -47,8 +47,7 @@ public class Ingenieur extends Personne{
 
     @Override
     public String toString() {
-        String str = "Ingenieur{" + "specialite=" + specialite + ", typeContrat=" + typeContrat + ", cin=" + cin +
-                ", nom=" + nom + ", prenom=" + prenom + "Liste Tache \n";
+        String str = "Ingenieur{" + super.toString() + " specialite=" + specialite + ", typeContrat=" + typeContrat + " Liste Tache \n";
         for(int i =0; i < this.nbrTache; i++){
             str += listeTaches[i].toString() + "\n";
         }
