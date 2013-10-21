@@ -10,7 +10,8 @@ package labo;
  *
  * @author modamod
  */
-public class Chercheur {
+public class Chercheur extends Laboratoire {
+    
     private String nom;
     private String poste;
     private int numOrdinatuer;
@@ -24,6 +25,7 @@ public class Chercheur {
     }
 
     public Chercheur() {
+        
     }
 
     public String getNom() {

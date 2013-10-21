@@ -25,6 +25,10 @@ public class Bureau {
         nbrBureau += 1;
     }
 
+    public Bureau() {
+        codeBureau = nbrBureau++;
+    }
+
     public int getCodeBureau() {
         return codeBureau;
     }
